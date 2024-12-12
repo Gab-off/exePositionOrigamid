@@ -59,6 +59,7 @@ p {
   max-width: 1000px;
 }
 
+
 .introducao {
   background-color: #fff;
   padding: 40px;
@@ -68,6 +69,13 @@ p {
   align-content: center;
   gap: 20px;
   justify-items: end;
+}
+
+.introducao::before {
+  content: "";
+  background-color: #e21;
+  width: 20px;
+  height: 4px;
 }
 
 .detalhe {
