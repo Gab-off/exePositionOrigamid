@@ -9,7 +9,7 @@
 /* Inicial CSS */
 body {
   display: grid;
-  padding-top: 6rem;
+  padding-top: 96px;
   justify-items: center;
   background-color: #f7f7f7;
   font-family: Arial, Helvetica, sans-serif;
@@ -27,7 +27,7 @@ ul {
 
 /* Nav */
 nav {
-  margin-top: 5rem;
+  margin-top: 80px;
 }
 nav .menu {
   display: flex;
@@ -36,17 +36,21 @@ nav .menu {
 
 .menu a {
   text-transform: uppercase;
-  padding: 1rem 2rem;
+  padding: 16px 32px;
   background-color: #fff;
   color: #000;
   border-radius: 4px;
 }
 
+.menu a:hover {
+  border:  2px solid #ee2211;
+}
+
 main {
-  margin: 5rem;
+  margin: 80px;
   display: grid;
   grid-template-columns: repeat(2, minmax(20rem, 100%));
-  max-width: 62.5rem;
+  max-width: 1000px;
 }
 
 main img {
@@ -58,8 +62,8 @@ main .introducao {
   text-align: end;
   display: grid;
   place-content: center;
-  padding: 0 3rem;
-  gap: 1rem;
+  padding: 0 48px;
+  gap: 16px;
 }
 
 .introducao h1 {
@@ -67,16 +71,20 @@ main .introducao {
 }
 
 .introducao p {
-  margin-bottom: 0.5rem;
+  margin-bottom: 8px;
 }
 
 .introducao .botao {
   background-color: #ee2211;
-  padding: 1rem 2rem;
+  padding: 16px  23px;
   border-radius: 4px;
   justify-self: end;
   text-transform: uppercase;
   color: #fff;
+}
+
+.introducao .botao:hover {
+  background-color: ;
 }
 
 .subtitulo {
@@ -84,7 +92,7 @@ main .introducao {
   text-transform: uppercase;
   align-content: center;
   text-align: end;
-  margin: 0 1rem;
+  margin: 0 16px;
   color: #c6c6c6;
 }
 
@@ -92,14 +100,14 @@ main .introducao {
 
 .vantagens {
   background-color: #fff;
-  padding: 0 4rem;
+  padding: 0 64px;
 }
 
 .vantagens-item {
   display: grid;
   grid-template-columns: auto 1fr;
-  margin: 3.5rem 0;
-  gap: 1.5rem;
+  margin: 56px 0;
+  gap: 24px; 
   row-gap: 0;
 }
 
@@ -110,11 +118,7 @@ main .introducao {
 footer {
   background-color: #fff;
   width: 100%;
-  height: 6rem;
+  height: 96px;
   justify-items: center;
   align-content: center;
-}
-
-footer p {
-
 }
