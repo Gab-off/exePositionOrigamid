@@ -30,7 +30,7 @@ nav {
 }
 nav .menu {
   display: flex;
-  flex-wrap: wrap;
+
   gap: 20px;
 }
 
@@ -173,7 +173,9 @@ footer {
 
   nav .menu {
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
+    row-gap: 40px;
+    flex-wrap: wrap;
   }
 
   .menu a {
