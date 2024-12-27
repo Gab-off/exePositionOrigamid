@@ -30,7 +30,6 @@ nav {
 }
 nav .menu {
   display: flex;
-
   gap: 20px;
 }
 
@@ -184,6 +183,7 @@ footer {
 
   main {
     grid-template-columns: 1fr;
+    margin: 40px;
   }
 
   main .introducao {
